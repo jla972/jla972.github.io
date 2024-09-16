@@ -22,21 +22,36 @@
         <a href="nous_contacter.html">Nous contacter</a>
     </header>
     <main>
-        <form method="get" action="">
+        <section id="contact" class="section-contact">
+            <form method="get" action="">
             <p>
-            <fieldset>
-                <legend>Vos coordonnées</legend> <!-- Titre du fieldset --> 
-                <label for="nom">Nom</label> : <input type="text" name="nom" id="nom" size="30">
-                <label for="prenom">Prénom</label> : <input type="text" name="prenom" id="prenom" size="30"><br>
-                <label for="email">e-mail</label> : <input type="email" name="email" id="email" size="30">
-                <label for="tel">Téléphone</label> : <input type="tel" name="tel" id="tel"><br>
-            </fieldset> 
-            <fieldset>
-                <legend>Votre message</legend> <!-- Titre du fieldset -->
-                <textarea name="message" id="message" rows="5" size="200"></textarea>
-            </fieldset>    
+            <!-- <fieldset> -->
+                <!-- <legend>Vos coordonnées</legend> Titre du fieldset  -->
+                <div class="form-nom-email">
+                    <div class="form-column">
+                    <label for="prenom">Prénom</label>  <input type="text" name="prenom" id="prenom" size="30" autofocus><br>
+                    </div>
+                    <div class="form-column">
+                    <label for="nom">Nom</label>  <input type="text" name="nom" id="nom" size="30">
+                    </div>
+                </div>
+                <div class="form-nom-email">
+                    <div class="form-column">
+                    <label for="email">e-mail</label>  <input type="email" name="email" id="email" size="30" required>
+                    </div>
+                    <div class="form-column">
+                    <label for="tel">Téléphone</label>  <input type="tel" name="tel" id="tel"><br>
+                    </div>
+                </div>
+            <!-- </fieldset> 
+            <fieldset> -->
+                <!-- <legend>Votre message</legend> Titre du fieldset -->
+                <textarea name="message" id="message" rows="5" size="200"></textarea><br>
+                <input type="submit" value="Envoyer">
+            <!-- </fieldset>     -->
             </p>
         </form>
+        </section>
     </main>
     <footer>
         <a href="https://www.facebook.com/hautnyong/"target="_blank"><img src="images/facebook.png"title="Facebook"></a>
