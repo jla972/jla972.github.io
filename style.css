@@ -1,0 +1,143 @@
+* {
+    margin: 10;
+  }
+  
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #dadae7;  
+}
+p {
+    font-family: "Manrope";   
+    font-size: 1.1em;
+    
+    }
+h1 {
+    font-family: "montserrat";
+    font-size: 3.5em;
+    text-align: center;
+    color: black;
+}
+h2 {
+  font-family: "montserrat";
+  font-size: 2em;
+  text-align: center;
+  color: black;
+}
+ul {
+    font-family: "Manrope";   
+    font-size: 1em;
+}
+header a {
+    text-decoration: none;
+    font-weight:bold;
+    color: white;
+}
+.lien-icone {
+  margin-left: 30px;
+}
+footer,
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  margin-left: 30px;
+}
+
+header,
+footer {
+  background-color: rgb(97, 179, 97);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-right: 50px;
+  /* padding: 30px 20px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; 
+
+}
+header {
+    background-size: cover;
+    /* background-image: url(images/Messaména.jpg); */
+    background-attachment: fixed;
+}
+.important {
+    color: #A5B4FC;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  .manrope {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  .conteneur {
+    display: flex;
+    flex-wrap:nowrap;
+    padding: 20px;
+    margin:auto;
+ }
+ .conteneur-entete {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+}
+
+.conteneur-messamena {
+  /* background-color: white; */
+  padding: 80px;
+  text-align: justify;
+}
+.conteneur-messamena div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+  align-items: center;
+  margin: auto;
+}
+.conteneur-messamena img {
+  width : 600px ; 
+  height : auto ; 
+}
+td /* Toutes les cellules des tableaux... */
+{
+    border: 1px solid black; /* auront une bordure de 1px */
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 10px;
+  align-content: center;
+}
+fieldset {
+  border: none;
+  background-color: #eeecec;
+  border: 2px solid black;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+legend {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 4px;
+}
