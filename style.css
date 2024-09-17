@@ -176,8 +176,7 @@ input[type='submit'] {
   .conteneur {
     flex-direction: column;
   }  
-  img {
-    width: 50%;
-    min-width: 400px;
+  .image {
+    display: none;
   }
 }
