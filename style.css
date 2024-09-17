@@ -177,6 +177,7 @@ input[type='submit'] {
     flex-direction: column;
   }  
   img {
-    display: none;
+    width: 50%;
+    min-width: 400px;
   }
 }
