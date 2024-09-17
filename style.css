@@ -172,3 +172,11 @@ input[type='submit'] {
   margin: auto;
   margin-top: 30px;
 }
+@media screen and (max-width: 960px) {
+  .conteneur {
+    flex-direction: column;
+  }  
+  img {
+    display: none;
+  }
+}
