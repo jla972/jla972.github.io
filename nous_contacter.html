@@ -8,18 +8,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <header>
         <a href="index.html" class="lien-icone">
             <img src="images/logo.jpeg" width=150% alt="Logo ADM" title="Accueil"/></a>
-        
-        <a href="qui_sommes_nous.html">Qui sommes nous ?</a>
-        <a href="messamena.html">Découvrir Méssaména</a>
-        <a href="les_missions.html">Les missions</a>
-        <a href="documentation.html">Documentation</a>
-        <a href="nous_contacter.html">Nous contacter</a>
+        <nav>
+            <ul class="menu">
+                <!-- <li class="menu-item"><a href="index.html" class="lien-icone">
+                    <img src="images/logo.jpeg" width=150% alt="Logo ADM" title="Accueil"/></a>
+                </li> -->
+                <li class="menu-item"><a href="index.html">Accueil</a></li>
+                <li class="menu-item"><a href="qui_sommes_nous.html">Qui sommes nous ?</a></li>
+                <li class="menu-item"><a href="messamena.html">Découvrir Méssaména</a></li>
+                <li class="menu-item"><a href="les_missions.html">Les missions</a></li>
+                <li class="menu-item"><a href="documentation.html">Documentation</a></li>
+                <li class="menu-item"><a href="nous_contacter.html">Nous contacter</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section id="contact" class="section-contact">
@@ -48,7 +56,8 @@
                 <!-- <legend>Votre message</legend> Titre du fieldset -->
                 <label for="message">Votre message</label>
                 <textarea name="message" id="message" rows="5" size="200"></textarea><br>
-                <input type="submit" value="Envoyer">
+                <input type="submit" value="Envoyer" id="monBouton">
+                <!-- <button id="monBouton">Envoyer</button> -->
             <!-- </fieldset>     -->
             </p>
         </form>

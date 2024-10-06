@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "date": "Date",
+        "type": "Type",
+        "intitule": "Numéro",
+        "fichier": "Fichier"
+    },
+    {
+        "id": 1,
+        "date": "Juillet 2023",
+        "type": "L'Écho du GAFPAMS",
+        "intitule": "N°14",
+        "fichier": "fichiers/EchoGAFPAMSjuillet2023.pdf"
+    },
+    {
+        "id": 2,
+        "date": "Juillet 2023",
+        "type": "Le lien",
+        "intitule": "N°53",
+        "fichier": "fichiers/LeLien53.pdf"
+    },
+    {
+        "id": 3,
+        "date": "Janvier 2024",
+        "type": "Le lien",
+        "intitule": "N°54",
+        "fichier": "ichiers/LeLien54.pdf"
+    },
+    {
+        "id": 4,
+        "date": "Février-Mars 2024",
+        "type": "Journal de mission",
+        "intitule": "Mission du 19 février au 11 mars 2024",
+        "fichier": "fichiers/JournalMissionFévrier-mars2024.pdf"
+    }
+]

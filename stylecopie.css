@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333; /* Couleur de fond du menu */
+}
+
+.menu {
+  list-style-type: none; /* Supprime les puces */
+  padding: 0; /* Supprime le padding */
+  margin: 0; /* Supprime la marge */
+  display: flex; /* Affiche les éléments du menu en ligne */
+}
+
+.menu-item {
+  margin: 5px; /* Ajoute un peu d'espace entre les éléments */
+}
+
+.menu-item a {
+  display: block; /* Permet d'étendre la zone cliquable */
+  padding: 10px 15px; /* Ajuste le padding par défaut */
+  font-size: 16px; /* Taille de police par défaut */
+  color: white; /* Couleur du texte */
+  text-decoration: none; /* Supprime le soulignement */
+  transition: background-color 0.3s; /* Ajoute une transition pour le survol */
+}
+
+.menu-item a:hover {
+  background-color: #555; /* Change la couleur de fond au survol */
+}
+
+/* Media Queries pour les écrans plus petits */
+@media (max-width: 900px) {
+  .menu-item a {
+      padding: 8px 12px; /* Réduit le padding */
+      font-size: 14px; /* Réduit la taille de la police */
+  }
+}
+
+@media (max-width: 600px) {
+  .menu-item a {
+      padding: 6px 10px; /* Réduit encore plus le padding */
+      font-size: 12px; /* Réduit la taille de la police */
+  }
+}
